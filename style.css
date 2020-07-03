@@ -1,0 +1,430 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+header {
+    background: rgba(1, 1, 102, 0.8);
+    width: 100%;
+    padding: 20px 0;
+    padding-bottom: 0;
+    color: antiquewhite;
+    text-align: center;
+    position: fixed;
+    z-index: 9999;
+}
+
+header h1 {
+    padding-bottom: 15px;
+}
+
+header p {
+    color: antiquewhite;
+    opacity: 0.7;
+    font-style: italic;
+    padding-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: inherit;
+}
+
+nav ul {
+    background-color: rgba(1, 1, 46, 0.842);
+    overflow: hidden;
+    color: antiquewhite;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 20px;
+}
+
+nav ul li:hover {
+    background-color: rgb(1, 1, 61);
+}
+
+@media screen and (max-width: 500px) {
+    body nav ul {
+        max-height: 0;
+    }
+    .showing {
+        max-height: 20em;
+    }
+    nav ul li {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 15px 50px;
+        text-align: left;
+    }
+}
+
+
+/* akhir header */
+
+* {
+    box-sizing: border-box;
+}
+.clear {
+    clear: left;
+}
+.container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.heading {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: #5f5d60;
+}
+.heading h2 {
+    font-weight: normal;
+}
+.lesson {
+    float: left;
+    width: 25%;
+}
+.lesson-icon {
+    position: relative;
+}
+.lesson-icon p {
+    position: absolute;
+    top: 44%;
+    width: 100%;
+    color: white;
+}
+.text-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 15px;
+    color: #b3aeb5;
+}
+
+body {
+    margin: 0;
+    font-family: "Lucida Grande";
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.header-logo {
+    float: left;
+    font-size: 36px;
+    padding: 20px 40px;
+    color: aliceblue;
+}
+
+.header-list li {
+    float: right;
+    padding: 20px 40px;
+    color: aliceblue;
+}
+
+.container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.landpage {
+    padding: 180px 0 100px;
+    background-image: url('https://images.unsplash.com/photo-1482049016688-2d3e1b311543?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=353&q=80');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    height: 600px;
+}
+
+.landpage h1 {
+    opacity: 0.7;
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+
+.landpage p {
+    opacity: 0.7;
+    margin-bottom: 3px;
+}
+
+.header {
+    height: 65px;
+    width: 100%;
+    background-color: rgb(1, 1, 59);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    opacity: 0.7;
+}
+
+.menu {
+    height: 500px;
+    padding-bottom: 80px;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.koki {
+    height: 500px;
+    padding-bottom: 80px;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+footer {
+    height: 200px;
+    color: cornsilk;
+    padding: 1 px;
+    background-color: rgb(1, 1, 59);
+    text-align: center;
+}
+
+/* -- Bagian Atas -- */
+
+.banner .container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+    animation: slide 2s 0.4s backwards;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(-1000px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.banner {
+    padding-top: 200px;
+    padding-bottom: 180px;
+    color: #dbc1ac;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.63), rgba(0, 0, 0, 0.3)), url(https://i.ibb.co/gzSHpvJ/baked-goods-1853261-1920.jpg)no-repeat center/cover;
+    background-size: 100% 100%;
+}
+
+.banner h1 {
+    padding-bottom: 10px;
+    padding-top: 80px;
+    font-size: 70px;
+    font-family: 'Pacifico', cursive;
+    line-height: 20px;
+}
+
+.banner h2 {
+    font-size: 40px;
+    font-weight: 900;
+    font-family: cursive;
+}
+
+/* -- bagian chef -- */
+
+blockquote {
+    font-size: 17px;
+    line-height: 1.6em;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container-done {
+    text-align: center;
+    border-top:5px solid #01143c;
+}
+
+h2 {
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.gray-container {
+    background: #F6F6F6;
+    padding: 4em 0 2em;
+    margin-top: -3%;
+}
+
+
+.gray-container ul {
+    display: flex;
+
+}
+
+figure {
+    flex: 1;
+    margin: 0 30px;
+}
+
+figcaption {
+    font-weight: bold;
+    color: #00C2FF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.footer {
+    background-color: #01143c;
+    height: 250px;
+    padding: 20px;
+}
+.container-about {
+    color: white;
+    margin: 20px 50px;
+}
+.about {
+    float: left;
+    margin-right: 70px;
+}
+
+.logo {
+    font-size: 20px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+.tentang-isi {
+    width: 370px;
+    text-align: justify;
+}
+
+.logo-waktu {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.time {
+    float: left;
+    margin-left: 60px;
+}
+
+.hari {
+    float: left;   
+}
+
+.hari li {
+    list-style: none;
+    padding-bottom: 7px;
+}
+
+.jam {
+    float: left;
+    padding-left: 140px;
+}
+.jam li {
+    list-style: none;
+    padding-bottom: 7px;
+}
+
+.hubungi {
+    float: right;
+    padding-right: 30px;
+}
+
+.sosmed {
+    margin-top: 30Px;
+}
+
+.btn {
+    color: white;
+    padding-right: 15px;
+}
+
+
+/* Untuk Tablet */
+
+@media all and (max-width: 1000px) {
+    .banner h1 {
+        font-size: 60px;
+        line-height: 10px;
+        margin-top: 80px;
+    }
+    .banner h2 {
+        font-size: 30px;
+    }
+    .banner {
+        padding-bottom: 120px;
+    }
+}
+
+
+/* Untuk Smartphone */
+
+@media all and (max-width: 670px) {
+    .banner h1 {
+        font-size: 39px;
+        text-align: left;
+        line-height: 30px;
+    }
+    .banner h2 {
+        font-size: 28px;
+        text-align: left;
+        line-height: 30px;
+    }
+    .banner {
+        padding-bottom: 90px;
+        padding-top: 130px
+    }
+    
+    /* -- bagian chef -- */
+    .gray-container ul li:first-child {
+        margin-bottom: 2em;
+    }
+
+    .gray-container ul {
+        display: block;
+    }
+
+    .lesson {
+        display: block;
+        float: none;
+        margin: 0 auto;
+        padding: 0 auto;
+    }
+
+    
+}
+
+img {
+    z-index: -99999;
+}
+
+
+/* -- Akhir Bagian Atas -- */
+
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
